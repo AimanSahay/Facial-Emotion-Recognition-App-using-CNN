@@ -122,18 +122,31 @@ A custom Convolutional Neural Network was designed specifically for low-resoluti
 ### Architecture Overview
 
 Input Image (48×48 Grayscale)
+
 ↓
+
 Convolution Layers
+
 ↓
+
 Batch Normalization
+
 ↓
+
 Max Pooling
+
 ↓
+
 Dropout
+
 ↓
+
 Fully Connected Dense Layer
+
 ↓
+
 Softmax Output Layer (7 Classes)
+
 
 ### Key Components
 
@@ -279,14 +292,23 @@ The trained CNN model was integrated into a Streamlit application that allows us
 ### Workflow
 
 Image Upload
+
 ↓
+
 Preprocessing
+
 ↓
+
 CNN Prediction
+
 ↓
+
 Emotion Classification
+
 ↓
+
 Probability Visualization
+
 
 ---
 
@@ -297,16 +319,27 @@ OpenCV was used to build a real-time emotion recognition system.
 ### Workflow
 
 Webcam Feed
+
 ↓
+
 Face Detection using Haar Cascade
+
 ↓
+
 Face Extraction
+
 ↓
+
 Image Preprocessing
+
 ↓
+
 CNN Prediction
+
 ↓
+
 Live Emotion Display
+
 
 The system continuously detects faces and overlays predicted emotions in real time.
 
